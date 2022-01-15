@@ -1,0 +1,31 @@
+{
+    "dates": {
+        "maximum": "2022-01-13",
+        "minimum": "2021-11-26"
+    },
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "manigueta.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "id": 634649,
+            "original_language": "en",
+            "original_title": "Caja",
+            "overview": "Called to Rome to stop an imminent terrorist bombing, a soldier desperately seeks news of his imprisoned brother — a rebel with knowledge that could thwart the attack. Navigating the capital's darkened streets, he races to a series of ominous encounters to keep the Vatican from being blown to bits.",
+            "popularity": 7553.322,
+            "poster_path": "manigueta.jpg",
+            "release_date": "2021-12-15",
+            "title": "Manigueta",
+            "video": false,
+            "vote_average": 8.4,
+            "vote_count": 3644
+        }
+    ],
+    "total_pages": 85,
+    "total_results": 1690
+}
