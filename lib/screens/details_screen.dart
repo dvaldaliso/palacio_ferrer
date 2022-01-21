@@ -131,7 +131,7 @@ class _Overview extends StatelessWidget {
       child: Text(
         movie.overview,
         textAlign: TextAlign.justify,
-        style: Theme.of(context).textTheme.subtitle1,
+        style: TextStyle(color: Colors.white),
       ),
     );
   }

@@ -6,7 +6,7 @@ class Movie {
       required this.overview,
       required this.posterPath,
       required this.title,
-      this.interiores});
+      required this.interiores});
 
   String backdropPath;
   int id;
@@ -24,8 +24,8 @@ class Movie {
     return 'assets/salas/${this.posterPath}';
   }
 
-  Future<List<Movie>?> interioresList() async {
-    return this.interiores;
+  Future<List<Movie>> interioresList() async {
+    return this.interiores!;
   }
 
   get haveList {

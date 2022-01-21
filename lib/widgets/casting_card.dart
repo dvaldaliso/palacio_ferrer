@@ -12,7 +12,6 @@ class CastingCards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final moviesProvider = Provider.of<MoviesProvider>(context, listen: false);
-
     return FutureBuilder(
       future: moviesProvider.getMovieCast(movieId),
       builder: (_, AsyncSnapshot<List<Movie>> snapshot) {
@@ -21,7 +20,7 @@ class CastingCards extends StatelessWidget {
             constraints: BoxConstraints(
                 maxWidth: 150), //para disminuir el tamano del container
             height: 180,
-            child: CupertinoActivityIndicator(), //otro Porgress
+            //child: CupertinoActivityIndicator(), //otro Porgress
           );
         }
         final List<Movie> cast = snapshot.data!;

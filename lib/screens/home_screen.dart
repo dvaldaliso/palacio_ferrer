@@ -9,7 +9,6 @@ class HomeScreen extends StatelessWidget {
     final moviesProvider = Provider.of<MoviesProvider>(context, listen: true);
 
     return Scaffold(
-        backgroundColor: Colors.black12,
         appBar: PreferredSize(
             preferredSize: Size.fromHeight(0), child: Container()),
         body: SingleChildScrollView(
