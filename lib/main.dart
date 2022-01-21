@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:peliculas/providers/movies_provider.dart';
+import 'package:peliculas/screens/home_page.dart';
 import 'package:peliculas/screens/screens.dart';
 import 'package:provider/provider.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Peliculas',
       initialRoute: 'home',
-      routes: {'home': (_) => HomeScreen(), 'details': (_) => DetailsScreen()},
+      routes: {'home': (_) => HomePage(), 'details': (_) => DetailsScreen()},
       theme: ThemeData.dark().copyWith(
           appBarTheme: AppBarTheme(color: Colors.indigo),
           scaffoldBackgroundColor: Colors.black),

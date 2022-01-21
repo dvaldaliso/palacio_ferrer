@@ -108,4 +108,15 @@ class MoviesProvider extends ChangeNotifier {
 
     return listInteriore2.interioresList();
   }
+
+  int _selectedMenuOpt = 0;
+
+  int get selectedMenuOpt {
+    return this._selectedMenuOpt;
+  }
+
+  set selectedMenuOpt(int i) {
+    this._selectedMenuOpt = i;
+    this.notifyListeners();
+  }
 }
