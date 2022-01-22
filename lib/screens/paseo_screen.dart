@@ -12,6 +12,9 @@ class PaseoScreen extends StatelessWidget {
         body: SingleChildScrollView(
       child: Column(
         children: [
+          SizedBox(
+            height: 180,
+          ),
           //Tarjetas principales
           CardSwiper(
             movies: moviesProvider.listGenerales,

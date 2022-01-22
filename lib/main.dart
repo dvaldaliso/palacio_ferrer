@@ -31,8 +31,9 @@ class MyApp extends StatelessWidget {
       initialRoute: 'home',
       routes: {'home': (_) => HomePage(), 'details': (_) => DetailsScreen()},
       theme: ThemeData.dark().copyWith(
-          appBarTheme: AppBarTheme(color: Colors.indigo),
-          scaffoldBackgroundColor: Colors.black),
+          scaffoldBackgroundColor: Color(0xff233043),
+          bottomNavigationBarTheme:
+              BottomNavigationBarThemeData(backgroundColor: Color(0xff233043))),
     );
   }
 }

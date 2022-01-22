@@ -2,8 +2,6 @@
 //
 //     final popularResponse = popularResponseFromMap(jsonString);
 
-import 'dart:convert';
-
 import 'package:peliculas/models/models.dart';
 
 class PopularResponse {

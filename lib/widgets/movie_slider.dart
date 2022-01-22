@@ -31,7 +31,6 @@ class _MovieSliderState extends State<MovieSlider> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
   }
 
@@ -80,8 +79,6 @@ class _MoviePoster extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var image;
-
     return Container(
       width: 130,
       height: 190,

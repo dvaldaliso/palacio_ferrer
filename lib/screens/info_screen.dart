@@ -9,15 +9,11 @@ class InfoScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Padding(
-              padding: const EdgeInsets.only(top: 10, bottom: 10),
-              child: Text(
-                'Seleccione una Categoria',
-                textAlign: TextAlign.center,
-                style: TextStyle(color: Colors.black),
-              ),
+            SizedBox(
+              height: 150,
             ),
-            CardInfo()
+            CardInfo('Horarios', Icons.lock_clock),
+            CardInfo('Localización', Icons.lock_clock)
           ],
         ),
       ),
